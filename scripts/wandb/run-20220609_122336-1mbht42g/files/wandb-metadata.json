@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.17.5-76051705-generic-x86_64-with-glibc2.31",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-06-09T16:23:37.785667",
+    "startedAt": "2022-06-09T16:23:36.712307",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "github_repos/syn_model/scripts/model_syn_gpr_sklearn.ipynb",
+    "root": "/D/MIT-WHOI/github_repos/syn_model",
+    "git": {
+        "remote": "git@github.com:miraSantos/syn_model.git",
+        "commit": "a82d71010783714ff21edecb1d568b59a23dc2d8"
+    },
+    "email": "miras@mit.edu",
+    "host": "miras",
+    "username": "miras",
+    "executable": "/home/miras/anaconda3/envs/sklearn/bin/python"
+}

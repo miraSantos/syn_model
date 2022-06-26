@@ -1,0 +1,3 @@
+
+env: "WANDB_NOTEBOOK_NAME"="test.ipynb"
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.

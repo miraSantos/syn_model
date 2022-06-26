@@ -1,0 +1,66 @@
+
+Error in callback <function _WandbInit._pause_backend at 0x7f91d2f39670> (for post_run_cell):
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/threading.py", line 917, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Error in callback <function _WandbInit._resume_backend at 0x7f91d2f39790> (for pre_run_cell):
+Problem at: /tmp/ipykernel_21928/3687882060.py 1 <cell line: 1>
+Traceback (most recent call last):
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 494, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1678, in finish
+    return self._finish(exit_code, quiet)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1684, in _finish
+    tel.feature.finish = True
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/lib/telemetry.py", line 41, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 577, in _telemetry_callback
+    self._telemetry_flush()
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 588, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 74, in _publish_telemetry
+    self._publish(rec)
+  File "/home/mira/anaconda3/envs/gpytorch/lib/python3.9/site-packages/wandb/sdk/interface/interface_queue.py", line 49, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+[34m[1mwandb[39m[22m: [32m[41mERROR[39m[49m Abnormal program exit
+Error in callback <function _WandbInit._pause_backend at 0x7f91d2f39670> (for post_run_cell):
+Error in callback <function _WandbInit._resume_backend at 0x7f91d2f39790> (for pre_run_cell):
+Error in callback <function _WandbInit._pause_backend at 0x7f91d2f39670> (for post_run_cell):

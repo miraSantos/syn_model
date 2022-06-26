@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.17.5-76051705-generic-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-05-29T19:20:40.390346",
+    "startedAt": "2022-05-29T19:20:39.516809",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:miraSantos/syn_model.git",
+        "commit": "a82d71010783714ff21edecb1d568b59a23dc2d8"
+    },
+    "email": "miras@mit.edu",
+    "root": "/D/MIT-WHOI/github_repos/syn_model",
+    "host": "miras",
+    "username": "miras",
+    "executable": "/home/miras/anaconda3/envs/gpy/bin/python"
+}

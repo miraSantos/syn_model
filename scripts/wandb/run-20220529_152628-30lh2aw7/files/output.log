@@ -1,0 +1,39 @@
+
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Requirement already satisfied: plotly in /home/miras/anaconda3/lib/python3.8/site-packages (5.5.0)
+Requirement already satisfied: six in /home/miras/anaconda3/lib/python3.8/site-packages (from plotly) (1.15.0)
+Requirement already satisfied: tenacity>=6.2.0 in /home/miras/anaconda3/lib/python3.8/site-packages (from plotly) (8.0.1)
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Number of Samples: 4694
+Collecting nbformat
+  Using cached nbformat-5.4.0-py3-none-any.whl (73 kB)
+Requirement already satisfied, skipping upgrade: jsonschema>=2.6 in /home/miras/anaconda3/lib/python3.8/site-packages (from nbformat) (3.2.0)
+Collecting traitlets>=5.1
+  Downloading traitlets-5.2.1.post0-py3-none-any.whl (106 kB)
+     |████████████████████████████████| 106 kB 5.3 MB/s
+[?25hCollecting fastjsonschema
+  Using cached fastjsonschema-2.15.3-py3-none-any.whl (22 kB)
+Requirement already satisfied, skipping upgrade: jupyter-core in /home/miras/.local/lib/python3.8/site-packages (from nbformat) (4.6.1)
+Requirement already satisfied, skipping upgrade: pyrsistent>=0.14.0 in /home/miras/anaconda3/lib/python3.8/site-packages (from jsonschema>=2.6->nbformat) (0.17.3)
+Requirement already satisfied, skipping upgrade: setuptools in /home/miras/anaconda3/lib/python3.8/site-packages (from jsonschema>=2.6->nbformat) (50.3.1.post20201107)
+Requirement already satisfied, skipping upgrade: attrs>=17.4.0 in /home/miras/anaconda3/lib/python3.8/site-packages (from jsonschema>=2.6->nbformat) (20.3.0)
+Requirement already satisfied, skipping upgrade: six>=1.11.0 in /home/miras/anaconda3/lib/python3.8/site-packages (from jsonschema>=2.6->nbformat) (1.15.0)
+Installing collected packages: traitlets, fastjsonschema, nbformat
+  Attempting uninstall: traitlets
+    Found existing installation: traitlets 5.0.5
+    Uninstalling traitlets-5.0.5:
+      Successfully uninstalled traitlets-5.0.5
+  Attempting uninstall: nbformat
+    Found existing installation: nbformat 5.0.8
+    Uninstalling nbformat-5.0.8:
+      Successfully uninstalled nbformat-5.0.8
+Successfully installed fastjsonschema-2.15.3 nbformat-5.4.0 traitlets-5.2.1.post0

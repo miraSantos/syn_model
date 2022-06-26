@@ -1,0 +1,24 @@
+
+Number of Samples: 4694
+Number of Samples: 4694
+(4765, 17)
+shape after setting daily frequency: (5598, 17)
+(4765, 17)
+shape after setting daily frequency: (5598, 17)
+number of NaNs in temp:2524
+number of NaNs in temp: after interpolation:0
+number of NaNs in log_syn:1591
+number of NaNs in log_syn: after interpolation:0
+(4765, 17)
+shape after setting daily frequency: (5598, 17)
+number of NaNs in temp:2524
+number of NaNs in temp: after interpolation:0
+number of NaNs in log_syn:1591
+number of NaNs in log_syn: after interpolation:0
+It's important that X and y have the same shape.
+(4007, 1)
+(4007, 1)
+It's important that X and y have the same shape.
+(4007, 1)
+(4007, 1)
+wandb: Network error (ConnectionError), entering retry loop.
